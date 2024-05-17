@@ -82,18 +82,8 @@ def cluster_terms_agglomerative(terms, min_clusters=2, max_clusters=10, linkage=
             print(f"   - {term}")
 
 # Input terms
-terms = [
-    'Attachments & Accessories', 'Auctions', 'Automated Equipment', 'Automated Storage Systems', 'Automatic Identification Equipment',
-    'automation', 'Awards', 'Batteries/Chargers', 'clamps', 'Computers', 'Computers/Software', 'Conference', 'Container Storage',
-    'Containers', 'Controls & Info Handling Systems', 'Controls & Information Handling Systems', 'Conveyors', 'Custom Fabricators',
-    'Dock Equipment', 'Drum Handlers', 'Electrical/Electronic Controls', 'Engines', 'Financing Companies', 'Fluid Power Equipment',
-    'Insurance Companies', 'Internet of Things (IoT)', 'Inventory & Production Controls Systems', 'Lift Tables', 'Lift truck',
-    'LP Gas Distributors', 'Manufacturing Industrial Projects', 'Master Distributor', 'Mechanical Power Transmission Equipment',
-    'MHEDA Award', 'MHW Int Cat', 'MODEX', 'New facility', 'New Products', 'Non-Powered Floor Equipment & Accessories', 'Nuts & Bolts',
-    'Overhead Lifting Equipment & Accessories', 'Pack Expo', 'Packaging & Equipment', 'pallet', 'Pallet Jacks', 'Parts', 'Plant Facilities Equipment',
-    'Plant Yard Equipment', 'podcast', 'Powered Industrial Trucks', 'Rack/Shelving', 'Racks', 'Rentals', 'Repair Services', 'Robots/Automated Equipment',
-    'Safety Products', 'scales', 'Seats', 'Shifting Gears', 'Storage Equipment', 'Sweepers/Scrubber/Brushes', 'Tires/Wheels', 'Training Education',
-    'Transportation & Hauling Equipment', 'UTV', 'Warehouse Management'
+terms = [ "Electrical", "Non-Electrical", "Mechnaical", 
+  "Chemical ","political" 
 ]
 
 # Define range of clusters to test
